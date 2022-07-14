@@ -1,0 +1,225 @@
+/* Mobile Devices */
+
+@media (min-width:320px) and (max-width:575px){
+    .main__wrapper{
+        padding: 12px 8px;
+    }
+    .main__content {
+        padding: 16px;
+        border-radius: 10px;
+    }
+    .header__area{
+        padding: 16px 0 0 0;
+    }
+    .banner__area{
+        padding-top: 84px;
+    }
+    .banner__content h2 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .banner__content p{
+        font-size:14px;
+        line-height:24px;
+        max-width: 100%;
+    }
+    .search__wrapper input{
+        font-size:14px;
+        padding: 13px 20px;
+    }
+    .search__wrapper button{
+        padding:12px 20px;
+    }
+    .search__wrapper button img{
+        width: 22px;
+    }
+    .single__card{
+        padding: 14px;
+        margin-bottom: 20px;
+    }
+    .single__card .card__content{
+        padding: 24px 8px 8px 8px;
+    }
+    .single__card .card__content h3{
+        font-size:18px;
+        line-height:26px;
+    }
+    .single__card .card__content p{
+        text-align: justify;
+    }
+    .fuel__effieient-wrapper h3{
+        font-size: 20px;
+        line-height: 36px;
+        margin-bottom: 18px;
+    }
+    .single__box{
+        max-width:100%;
+        padding: 16px;
+        margin-bottom: 18px;
+    }
+    .single__box h4 {
+        font-size:18px;
+        margin-bottom: 0;
+    }
+    .single__box p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .footer__content h4 {
+        font-size: 14px;
+    }
+}
+
+
+/* Tablet Devices */
+
+@media (min-width:767px) and (max-width:991px){
+    .main__content {
+        padding: 20px;
+    }
+    .header__area{
+        padding: 12px;
+    }
+    .banner__area{
+        padding-top: 96px;
+    }
+    .banner__content h2 {
+        font-size:40px;
+        line-height:72px;
+    }
+    .banner__content p{
+        font-size:14px;
+        line-height:28px;
+        max-width: 650px;
+    }
+    .single__card{
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+    .single__card .card__content{
+        padding: 24px 8px 8px 8px;
+    }
+    .single__card .card__content h3{
+        font-size:18px;
+        line-height:26px;
+    }
+    .single__card .card__content p{
+        text-align: justify;
+    }
+
+    .single__box{
+        max-width:520px;
+    }
+    .single__box h4 {
+        font-size:20px;
+    }
+    .single__box p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+
+/* Medium Large Devices */
+
+@media (min-width:992px) and (max-width:1199px){
+    .main__content {
+        padding: 40px;
+    }
+    .header__area{
+        padding: 20px;
+    }
+    .banner__area{
+        padding-top: 96px;
+    }
+    .banner__content h2 {
+        font-size:44px;
+        line-height:72px;
+    }
+    .banner__content p{
+        font-size:16px;
+        max-width: 742px;
+    }
+    .single__card{
+        padding: 10px;
+    }
+    .single__card .card__content{
+        padding: 24px 8px 8px 8px;
+    }
+    .single__card .card__content h3{
+        font-size:18px;
+        line-height:26px;
+    }
+    .single__card .card__content p{
+        text-align: justify;
+    }
+
+    .single__box{
+        max-width:520px;
+    }
+    .single__box h4 {
+        font-size:20px;
+    }
+    .single__box p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+
+/* Large Devices */
+
+@media (min-width:1200px) and (max-width:1399px){
+    .main__content {
+        padding: 40px;
+    }
+    .header__area{
+        padding: 20px;
+    }
+    .banner__area{
+        padding-top: 96px;
+    }
+    .banner__content h2 {
+        font-size:52px;
+        line-height:80px;
+    }
+    .banner__content p{
+        font-size:18px;
+        max-width: 836px;
+    }
+    .single__card{
+        padding: 15px;
+    }
+    .single__card .card__content{
+        padding: 26px 10px 10px 10px;
+    }
+    .single__card .card__content h3{
+        font-size:20px;
+        line-height:26px;
+    }
+
+    .single__box{
+        max-width:650px;
+    }
+    .single__box h4 {
+        font-size:22px;
+    }
+    .single__box p{
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+
+/* Extra Large Devices */
+
+@media (min-width:1400px) and (max-width:1600px){
+    .single__card{
+        padding: 15px;
+    }
+    .single__card .card__content h3{
+        line-height:28px;
+    }
+
+
+}

@@ -37,7 +37,6 @@ p{
 }
 .main__content{
     background: #FFFFFF;
-    backdrop-filter: blur(80px);
     box-shadow: 0px 0px 124px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 56px;
@@ -174,7 +173,7 @@ p{
     border-radius: 10px;
     padding: 20px;
 }
-.single__box h5{
+.single__box h4{
     font-family: 'Amiko', sans-serif;
     font-style: normal;
     font-weight: 700;
